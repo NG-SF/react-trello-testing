@@ -1,0 +1,22 @@
+.signUp {
+  background-color: yellow;
+  padding: 1px;
+  text-align: center;
+}
+
+.left,
+.right {
+  display: inline-block;
+}
+
+.left a,
+.right button{
+  margin: 3px;
+}
+
+nav {
+  padding: 7px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+

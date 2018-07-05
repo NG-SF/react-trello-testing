@@ -1,3 +1,7 @@
+.board {
+    padding: 30px 40px;
+}
+
 .lists {
     display: flex;
     align-items: flex-start;

@@ -1,7 +1,11 @@
 body {
   font-family: sans-serif;
-  padding: 10px;
-  background: #1976D2;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2, h3 {
@@ -24,4 +28,28 @@ ul.lists {
 
 input {
   display: block;
+}
+
+.btn {
+  background-color: #5b9b45d4;
+  padding: 7px 11px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: .9em;
+}
+
+.inactive {
+  background: hsla(0,0%,100%,.3);
+}
+
+.btn:hover {
+  background-color: #57ac3bd4;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }

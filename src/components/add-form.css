@@ -1,3 +1,12 @@
+.add-form {
+    max-width: 310px;
+    padding: 20px;
+}
+
+.add-form input {
+    margin-bottom: 15px;
+}
+
 .add-button {
     padding: 8px;
     border-radius: 4px;
@@ -9,12 +18,13 @@
 
 .add-list-wrapper > .add-button {
     min-width: 200px;
-    background: #1565C0;
+    background: rgb(182, 211, 182);
     color: white;
+    font-weight: bold;
 }
 
 .add-list-wrapper > .add-button:hover {
-    background: #0D47A1;
+    background: rgb(106, 164, 106);
 }
 
 .list > .add-button:hover {
@@ -27,4 +37,9 @@
 
 .board .add-form {
     align-self: flex-start;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
 }

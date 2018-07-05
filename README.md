@@ -1,3 +1,4 @@
 # React Trello with testing
 
-[GitHub](https://github.com/Thinkful-Ed/react-trello-testing/)
+
+<p><a href="https://adoring-kalam-075505.netlify.com/" target="_blank" rel="noopener">React practice Trello app</a> (from Thinkfull curriculum)</p>
